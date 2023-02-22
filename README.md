@@ -3,8 +3,8 @@ Graph based privacy attack on multiple encoding techniques for PPRL
 
 Anushka Vidanage, Peter Christen, Thilina Ranbaduge, and Rainer Schnell
 
-Paper title: A Graph Matching Attack on Privacy-Preserving Record Linkage
-
+Paper title: A Graph Matching Attack on Privacy-Preserving Record Linkage\
+Paper URL: [here](https://dl.acm.org/doi/abs/10.1145/3340531.3411931)
 
 Copyright 2020 Australian National University and others.
 All Rights reserved.
@@ -38,8 +38,8 @@ Running the attack program:
 
 To run the program, use the following command (with an example setting):
 
-  python graph-attack-pprl.py euro-census.csv 0 , True [1,2,8] -1 
-         euro-census.csv 0 , True [1,2,8] -1 2 False dice True bf rh 
+  python graph-attack-pprl.py path-to-encode-dataset.csv.gz 0 , True [1,2,8] -1 
+         path-to-plaintext-dataset.csv.gz 0 , True [1,2,8] -1 2 False dice True bf rh 
          15 1000 clk none None dice
 
 For moe details about the command line arguments see comments at the top of 
